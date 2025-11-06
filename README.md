@@ -14,21 +14,22 @@ This is a Python-based, abstract, animal-themed board game that takes place on a
 - Object-oriented design with inheritance and polymorphism
 
 ## Project Structure
-```animal-abstract-board-game/
-├─ game.py <- main game logic, including the board and piece classes
-├─ tester.py <- test code demonstrating moves and validating rules
-├─ README.md <- this file, explains the project and how to run it
+```
+animal-abstract-board-game/
+├─ game.py       # Main game logic, including the board and piece classes
+├─ tester.py     # Test code demonstrating moves and validating rules
+├─ README.md     # This file
 ```
 
 ## How to Run
 1. Make sure you have Python 3 installed.
 2. Run the game from the terminal:
-```bash
+```
 python game.py
 ```
 
 ## Sample Usage
-``` python
+```
 from game import AnimalGame
 
 game = AnimalGame()
